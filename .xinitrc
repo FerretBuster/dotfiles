@@ -9,5 +9,5 @@ xsetroot -cursor_name left_ptr &
 setxkbmap gb &
 xset fp+ /home/matt/.fonts/ &
 xset fp rehash &
-screensetup.sh &
+screensetup.sh 
 exec bspwm
