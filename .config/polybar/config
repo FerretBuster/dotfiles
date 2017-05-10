@@ -8,7 +8,7 @@
 ;=====================================================
 
 [colors]
-background = #222
+background = #000000
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #55
@@ -34,10 +34,10 @@ foreground = ${colors.foreground}
 overline-size = 2
 overline-color = #f00
 underline-size = 2
-underline-color = #00f
+underline-color = #f00
 
-border-bottom-size = 2
-border-bottom-color = #333
+border-bottom-size = 0 
+border-bottom-color = #FFFFFF
 
 padding-left = 0
 padding-right = 2
@@ -55,7 +55,7 @@ modules-right = xbacklight volume xkeyboard memory cpu wlan eth battery temperat
 tray-position = right
 tray-padding = 2
 ;tray-transparent = true
-;tray-background = #0063ff
+;tray-background = ${colors.background}
 
 ;wm-restack = bspwm
 ;wm-restack = i3
