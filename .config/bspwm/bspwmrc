@@ -3,7 +3,7 @@
 sxhkd &
 nitrogen --restore &
 polybar top &
-compton --config /home/matt/.config/compton.conf -b &
+compton --config /home/matt/.config/compton.conf -b
 dropbox start &
 nm-applet &
 
