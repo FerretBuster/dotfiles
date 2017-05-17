@@ -2,6 +2,10 @@
 # wm independent hotkeys
 #
 
+# lock screen
+ctrl + alt + l
+	slock
+
 # terminal emulator
 super + Return
 	termite
