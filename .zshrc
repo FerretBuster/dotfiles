@@ -1,7 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+# Dotfiles git alias
 alias config='/usr/bin/git --git-dir=/home/matt/.dotfiles/ --work-tree=/home/matt'
+
+# Turn laptop keyboard on/off -- useful for external keyboard
+alias lapkeyoff="xinput set-prop 14 'Device Enabled' 0"
+alias lapkeyon="xinput set-prop 14 'Device Enabled' 1"
+
+# Path variable export
 export PATH="/home/matt/bin:$PATH"
 
 
